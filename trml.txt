@@ -1,0 +1,30 @@
+Windows Terminal
+
+Control Shift p :Search command
+Alt left: Move focus left
+Alt Shift left: Resize pane left
+Alt Shift d: Duplicate pane
+Control Shift t: New tab
+Control Shift w: Close pane
+f11: full screen
+
+Tmux
+
+tmux :OpensNewSession,
+tmux new -s deneme :OpensNewSessionDeneme,
+^b c :NewTab,
+^b :TmuxPrefixKey,
+^b n :NextTab,
+^b , :ChangeTabName,
+^b d :DetachSession,
+tmux a deneme :AttachToDeneme,
+tmux ls :ListSession,
+tmux a -t deneme :AttachToSession,
+^b s :SwitchBetweenSession,
+^b ? :SeeEveryKey,
+^b & :KillWindow,
+^b x :KillPane,
+^b n :NextWindow,
+^b o :NextPane,
+^b % :VerticallySplit,
+

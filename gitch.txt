@@ -1,0 +1,68 @@
+Git Config
+git config --global user.name "lalala"
+git config --global user.email lalala@gmail.com
+git config --global core.editor "vim --wait" // "code --wait"
+git config --global -e // to edit .gitconfig
+git config --global core.autocrlf true // true for win input for linux
+
+Git Help
+git config --help
+git config -h // summary of --help
+
+Git Local Actions
+git init // to initialize current directory
+*if you delete .git its no more initialized
+git add deneme.txt // . to add recursively
+git add -p deneme.txt // add preferred chunk of change
+git status
+git status -s
+git commit // to write commit with preferred editor
+git commit -m "commit" // commit with a message
+git commit -am "commit" // skip add while commiting
+git ls-files
+git rm lala.txt
+git rm --cached lala.txt // remove file from index
+* .gitignore for files that shouldnt be committed in every commit
+
+git diff
+git diff --staged // for difference in index
+git log
+git log --oneline
+git log --oneline --reverse
+git show Head~1
+git ls-tree Head~1
+
+git restore --staged lala.txt // for backtracking changes in index
+git restore --source=HEAD~1 lala.txt // back to previous verion
+git clean // for removing local changes
+
+Git Actions
+git branch deneme
+git checkout deneme
+git push --set--upstream origin deneme
+git merge deneme
+git merge --abort // takes merge of deneme back
+git rebase -i HEAD~3 (reword) // change message of commite 3 step back
+git rebase -i HEAD~3 (squash) // to combine 2 commit into one
+git cherry-pick 26bf148 // to merge specific commit to current branch
+git reset --hard HEAD~1 // one step back
+git reflog // action history
+git branch yeni e5b19e4 // new branch has the snapshot of old at e5b1 at reflog
+git branch -d yeni // to delete yeni
+git submodule add [url] 
+git submodule update --init --recursive // when submodules no downloaded
+git clone --recurse-submodules [url] // download submodules from the start
+git log --after="2021-7-1" --before="2021-7-5"
+git log --grep="fix" 
+git log --author="ysf"
+git log -- README.md
+
+Git Getting Changes Back
+git restore file.html //local
+git restore -p file.html //restore chunk
+git restore --source 377hdje file.html
+git restore . //discard all changes
+git commit --amend -m "new message" 
+git revert 2b504bee
+git reset --hard 2b504bee
+
