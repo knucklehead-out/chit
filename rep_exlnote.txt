@@ -1,0 +1,116 @@
+------ Excel Notes --------
+Utilize Quick Access Toolbar
+
+Texts are left aligned, numbers are right aligned
+Custom number formatting to format date type
+Control key to select noncontiguous group of cells
+To enter formula start with = (equal sign)
+$ sign in front of column and row to make that cell absolute reference
+
+Chapter 5
+Ctrl + or Ctrl - to add or delete column or row
+Double click to a column adjusts size to the biggest value
+Clicking between two column adjusts size to the shortest
+Holding Ctrl while dragging a sheet drags a copy of that sheet
+
+Chapter 6
+Remember formatting decimals
+Double clicking format painter gives repeatable painting
+Contional formating - Manage rules 
+
+Chapter 8
+Select data to select which data to be shown in chart
+Connect chart title to any cell by giving formula location of the cell
+Add Chart Element button to locate and add chart elements
+Move chart button to move the chart to another worksheet
+
+Chapter 9
+Page layout button to see how sheet would look printed
+Header and footer section for page number and file path
+Print Area for keeping unchanged portion fixed
+
+Chapter 10
+Change file type to Excel Template to create template
+
+Chapter 14
+Data -> Sort -> customlist to imply order of sorting
+Data -> Filter to filter data from downbar
+Data -> Subtotal to apply basic function to each sorted product
+Home -> FormatasTable button to make formating apply to changes
+Data -> Remove Duplicates
+
+Chapter 15
+fx button to open function arguments page
+Dfuncs require additional list to choose creteria 
+Subtotal can be used as a function
+
+Chapter 16
+Data -> Data validation gives downbar to choose existing data
+Also in data validation page errors can be modified
+
+Chapter 17 (import and export data)
+
+Chapter 18
+Format your list as table first
+Then insert pivot table
+Then decide whether values should be in rows columns values or filter
+Then drag those values to wanted places
+Group selection in pivotTable analyze to group rows
+If you put a value under another value in rows section it will be grouped
+Value field setting when clicked at values section lets you,
+modify curency and decimals
+Show as value section in Value field setting to compare values
+Double click value in pivot table to generate a new list that,
+only contains data of that value
+Filter pivotchart with filter section or with slicer
+
+Chapter 19
+Table design tab change table name
+Add to Data Model to add pivot table to power pivot window
+At power windows use data view to create relationship between tables
+Or click to shared row then create relationship
+Button pivot table to create pivot table with relationships
+KIPs
+
+Chapter 20
+View -> Freeze Pane
+Data -> Group to hide and display columns automaticly
+Page layout -> print title for various printing option
+Data -> Consalidate to copy values from diffrent worksheets
+
+Chapter 24
+Name a range by writing to box that displays range of cells next to fx
+Name ranges are absolute references
+Formulas -> Name Manager to edit delete name ranges
+=And(H5='YES',MIN(B5:E5)>=8000)
+if() and() countif() sumif() iferror()
+
+Chapter 25
+vlookup() hlookup() index() match()
+
+Chapter 26
+left() right() search() concatenate()
+
+Chapter 27
+Trace dependents and precedents to see relations between cells
+Watch window to watch effects of a change in a different sheet
+Show formulas to see formulas of every cells
+
+Chapter 28
+Home -> font arrow to unlock cells
+Protect sheet to put password on worksheet
+Protect workbook to put password for workbook
+Protect workbook from info to put password to view it
+
+Chapter 29
+What-if analysis -> Goal seek check result with different values
+Solver is Goal seek with multiple constraints
+What-if analysis -> data table to try list of values of one constraints
+What-if analysis -> scenario manager to calculate results of,
+desired possibilities
+
+Chapter 30
+Developer -> Record Macro and stop recording
+Open developer from ribbon settings
+Developer -> insert to add buttons to run macros
+

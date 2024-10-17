@@ -1,25 +1,30 @@
 Windows Terminal
 
 Control Shift p :Search command
-Alt left: Move focus left
-Alt Shift left: Resize pane left
-Alt Shift d: Duplicate pane
 Control Shift t: New tab
 Control Shift w: Close pane
-f11: full screen
+Control tab : Next tab
+Control , : Settings
+Alt left: Move focus left
+Alt enter: Focus mode
+Alt Shift left: Resize pane left
+Alt Shift d: Duplicate pane
+f11 :Full Screen
+Windows tab :Change desktop
+Windows space : Change language
+
 
 Tmux
 
 tmux :OpensNewSession,
 tmux new -s deneme :OpensNewSessionDeneme,
-^b c :NewTab,
-^b :TmuxPrefixKey,
-^b n :NextTab,
-^b , :ChangeTabName,
-^b d :DetachSession,
 tmux a deneme :AttachToDeneme,
 tmux ls :ListSession,
 tmux a -t deneme :AttachToSession,
+^b :TmuxPrefixKey,
+^b c :NewTab,
+^b , :ChangeTabName,
+^b d :DetachSession,
 ^b s :SwitchBetweenSession,
 ^b ? :SeeEveryKey,
 ^b & :KillWindow,
